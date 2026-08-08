@@ -1,8 +1,6 @@
 export const siteConfig = {
   name: "ASOSINT",
-
   shortName: "ASOSINT",
-
   title: "ASOSINT",
 
   description:
@@ -27,11 +25,14 @@ export const siteConfig = {
 
   links: {
     website: "https://axomiyaitlabs.vercel.app",
+
     github: "https://github.com/Axomiya-IT-Labs",
     x: "https://x.com/axomiyaitlabs",
     instagram: "https://instagram.com/axomiyaitlabs",
     facebook: "https://facebook.com/axomiyaitlabs",
     youtube: "https://youtube.com/@axomiyaitlabs",
     telegram: "https://t.me/axomiyaitlabs",
+
+    email: "mailto:axomiyaitlabs@gmail.com",
   },
 } as const;
