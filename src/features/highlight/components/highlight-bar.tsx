@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
 import { highlights } from "../data";
-
 import { HighlightItem } from "./highlight-item";
 
 export async function HighlightBar() {
@@ -10,27 +9,25 @@ export async function HighlightBar() {
   return (
     <section
       aria-labelledby="security-highlights"
-      className="border-t bg-muted/30"
+      className="border-t border-b bg-muted/20"
     >
-      <div className="container py-16">
-
-        <div className="mb-10 text-center">
-
+      <div className="mx-auto w-full max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        {/* Heading */}
+        <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
           <h2
             id="security-highlights"
-            className="text-3xl font-bold tracking-tight"
+            className="text-2xl font-bold tracking-tight sm:text-3xl lg:text-4xl"
           >
             {t("heading")}
           </h2>
 
-          <p className="mt-3 mx-auto max-w-2xl text-muted-foreground">
+          <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-muted-foreground sm:text-base lg:text-lg">
             {t("description")}
           </p>
-
         </div>
 
+        {/* Cards */}
         <div className="space-y-5">
-
           {highlights.map((item) => (
             <HighlightItem
               key={item.id}
@@ -42,9 +39,7 @@ export async function HighlightBar() {
               button={t(`${item.id}.button`)}
             />
           ))}
-
         </div>
-
       </div>
     </section>
   );

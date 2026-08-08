@@ -12,9 +12,15 @@ export function HighlightActions({
   button,
 }: Props) {
   return (
-    <div className="shrink-0">
-      <Link href={href}>
-        <Button size="lg">
+    <div className="w-full shrink-0 lg:w-auto">
+      <Link
+        href={href}
+        className="block w-full lg:w-auto"
+      >
+        <Button
+          size="lg"
+          className="w-full lg:w-auto"
+        >
           {button}
         </Button>
       </Link>
