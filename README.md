@@ -1,36 +1,196 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ASOSINT
 
-First, run the development server:
+### Verify Before You Trust.
+
+**Open-source Digital Trust Platform for OSINT, Cybersecurity Awareness, AI Verification & Digital Literacy.**
+
+[Website](#) • [Documentation](./docs) • [Roadmap](./docs/roadmap.md) • [Contributing](./docs/contributing.md)
+
+</div>
+
+---
+
+## 🌍 About
+
+ASOSINT is an open-source Digital Trust platform that helps people verify information, recognize cyber threats, understand AI-generated content, and stay safe online.
+
+Our mission is simple:
+
+> **Verify Before You Trust.**
+
+We believe digital safety should be accessible to everyone—not just cybersecurity professionals.
+
+---
+
+## ✨ Features
+
+- 🔍 Open Source Intelligence (OSINT)
+- 🛡 Cybersecurity Awareness
+- 🤖 AI Literacy & AI Verification
+- 🎭 Deepfake Awareness
+- 🎙 Voice Cloning Education
+- 🔐 Online Privacy
+- 🌐 Digital Investigations
+- 🚨 Scam Awareness
+- 📚 Learning Resources
+- 🧰 Practical Verification Tools
+
+---
+
+## 🌐 Languages
+
+ASOSINT is bilingual from day one.
+
+- 🇺🇸 English
+- 🇮🇳 Assamese (অসমীয়া)
+
+More languages may be added through community contributions.
+
+---
+
+## ⚡ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js 16 |
+| UI | React 19 |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Components | shadcn/ui |
+| Animation | Motion |
+| Content | MDX |
+| Search | Pagefind |
+| Hosting | Vercel |
+| CDN | Cloudflare |
+| Version Control | GitHub |
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── src/
+├── content/
+├── docs/
+├── public/
+├── PROJECT_CONTEXT.md
+├── AGENTS.md
+├── CLAUDE.md
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-org/asosint.git
+```
+
+Go to the project
+
+```bash
+cd asosint
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📖 Documentation
 
-To learn more about Next.js, take a look at the following resources:
+Project documentation is available inside the `docs` directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Architecture
+- Design System
+- Coding Standards
+- Content Guidelines
+- SEO Strategy
+- Roadmap
+- Contributing Guide
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎯 Goals
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ASOSINT aims to become the world's most trusted open-source platform for:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Digital Trust
+- OSINT Education
+- Cybersecurity Awareness
+- AI Verification
+- Digital Literacy
+- Online Privacy
+
+---
+
+## 🤝 Contributing
+
+Contributions of all sizes are welcome.
+
+Whether you're:
+
+- A developer
+- A designer
+- A writer
+- A translator
+- A cybersecurity professional
+- A student
+
+Your contribution helps make the internet safer for everyone.
+
+Please read:
+
+- `docs/contributing.md`
+- `PROJECT_CONTEXT.md`
+
+before contributing.
+
+---
+
+## 🛣 Roadmap
+
+See:
+
+```
+docs/roadmap.md
+```
+
+for the latest project roadmap and future plans.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+Built with ❤️ by the open-source community.
+
+### **Verify Before You Trust.**
+
+</div>i18n.ts

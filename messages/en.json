@@ -1,0 +1,79 @@
+{
+  "site": {
+    "title": "ASOSINT",
+    "tagline": "Verify Before You Trust.",
+    "description": "Free bilingual OSINT, AI Safety, Fact Checking and Digital Literacy platform."
+  },
+
+  "metadata": {
+    "title": "ASOSINT • Open Source Intelligence & AI Literacy",
+    "description": "Learn OSINT, AI literacy, cybersecurity awareness and digital safety."
+  },
+
+  "home": {
+    "hero": {
+      "badge": "Empowering You to Stay Safe Online & Offline",
+      "title": "Learn Open Source Intelligence, AI Literacy & Digital Safety.",
+      "description": "ASOSINT is a free, open-source educational platform by Axomiya IT Labs helping everyone learn OSINT, AI literacy, cybersecurity, digital privacy and fact-checking.",
+      "primary": "Start Learning",
+      "secondary": "Explore Tools"
+    },
+
+    "trust": {
+      "heading": "Why Digital Literacy Matters",
+      "description": "The internet is changing faster than ever. Learn the essential skills every modern internet user should have.",
+
+      "ai": {
+        "title": "AI Isn't Always Right",
+        "description": "AI can confidently generate false information, fake references, hallucinations and incorrect answers. Always verify important information before trusting or sharing it."
+      },
+
+      "deepfake": {
+        "title": "Deepfakes Are Becoming More Realistic",
+        "description": "AI can create realistic faces, voices and videos that never existed. Learn how to recognize manipulated media before it deceives you."
+      },
+
+      "engineering": {
+        "title": "Hackers Target People First",
+        "description": "Most cyber attacks begin with phishing, impersonation and social engineering rather than sophisticated hacking. Awareness is your strongest defense."
+      },
+
+      "osint": {
+        "title": "Think Like an Investigator",
+        "description": "Learn how to verify information, identify fake profiles, analyze images and investigate digital evidence using OSINT techniques."
+      }
+    }
+  },
+
+  "navigation": {
+    "home": "Home",
+    "learn": "Know",
+    "tools": "Tools",
+    "ai": "AI Safety",
+    "resources": "Resources",
+    "community": "Community",
+    "about": "About",
+    "search": "Search"
+  },
+
+  "highlight": {
+    "heading": "Stay Safe in the AI Era",
+    "description": "Understand the risks of AI, misinformation and cybercrime before it's too late.",
+
+    "ai-warning": {
+      "title": "AI Safety Warning",
+      "text": "Artificial Intelligence can generate convincing but false information, fake references, fabricated images, cloned voices and deepfake videos. Never trust AI blindly. Always verify important information before making decisions or sharing it online.",
+      "button": "Learn AI Safety"
+    },
+
+    "cyber-safety": {
+      "title": "Cybersecurity Starts With Awareness",
+      "text": "Most cyber attacks don't begin with sophisticated hacking—they begin with deception. Phishing, fake websites, social engineering and weak passwords cause most successful attacks. Learn how attackers think so you can stay protected.",
+      "button": "Learn Digital Safety"
+    }
+  },
+
+  "footer": {
+    "copyright": "Made with ❤️ by Axomiya IT Labs."
+  }
+}
